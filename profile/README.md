@@ -21,17 +21,14 @@ The AI job search assistant covering every stage from application to signed offe
 ## Try it
 
 ```bash
-# Install the Skill (builds per-tool bundles, copy yours into place)
-git clone https://github.com/fourleafai/clover-public.git
-cd clover-public
-npm run build
-cp -r dist/claude-code/.claude ~/   # Claude Code global. See repo README for Cursor, Codex, GitHub Copilot.
+# Install the Skill (auto-detects your AI tool)
+npx four-leaf-coach add
 
 # Connect the MCP for live data
 claude mcp add --transport http four-leaf https://four-leaf.ai/api/mcp
 ```
 
-A free Four-Leaf account works. OAuth on first MCP call.
+A free Four-Leaf account works. OAuth on first MCP call. The CLI supports Claude Code, Cursor, OpenAI Codex, and GitHub Copilot; pass `--tool <name>` to override detection.
 
 ## What's free vs paid
 

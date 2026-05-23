@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./four-leaf-banner.png" alt="Four-Leaf" width="600" />
+<img src="https://raw.githubusercontent.com/fourleafai/.github/main/profile/four-leaf-banner.png" alt="Four-Leaf" width="600" />
 
 The AI job search assistant covering every stage from application to signed offer. Voice mock interviews with rubric-scored feedback. AI resume tailoring per posting. Application tracking. Compensation negotiation coaching.
 
